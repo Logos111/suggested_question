@@ -1,1 +1,199 @@
-[{"pslot":"base","query":["有哪些护肤品牌？","有没有适合敏感肌肤的产品？","有没有针对不同肤质的护肤产品？","有没有提供化妆品的试用装？","有没有提供护肤品的样品？","推荐一款适合敏感皮肤的洗面奶。","有没有提供护肤品的礼盒套装？","有没有提供专业的护肤咨询服务？","有没有提供护肤品的抗衰老系列？","有没有提供护肤品的美白系列？","有没有提供护肤品的保湿系列？","1234",""]},{"pslot":"gender","query":["{gender}性护肤品推荐"]},{"pslot":"product","query":["{product}现在有什么活动","{product}是否有优惠券可用","{product}的会员价是多少","{product}的价格是多少","{product}适合哪种肤质使用","{product}的效果如何","{product}的评论和评价如何","{product}是否有退换货政策","{product}是否有推荐的搭配产品","{product}的成分有哪些？"]},{"pslot":"category","query":["热门{category}测评","{category}优惠活动","{category}会员优惠价","{category}有什么干货知识","{category}使用指南"]},{"pslot":"brand","query":["{brand}活动优惠券","{brand}品牌最近有优惠么","{brand}产品测评"]},{"pslot":"time","query":["{time}活动优惠","{time}会员福利","{time}期间有什么优惠吗","{time}有促销礼盒推荐么"]},{"pslot":"symptom","query":["{symptom},有什么产品推荐改善吗？","针对{symptom}的产品有哪些？","解决{symptom}好物推荐"]},{"pslot":"skin","query":["有没有适合{skin}的洁面产品？","有没有适合{skin}的护肤品？","请问有没有适合{skin}的面膜？","有没有适合{skin}的防晒产品？","我可以找到哪些适合{skin}的品牌？","有没有适合{skin}的粉底推荐？"]},{"pslot":"action","query":["最近有什么{action}活动么","最近都有什么优惠活动","有没有什么优惠券可以领"]},{"pslot":"intent2:会员活动,action","query":["会员积分可以兑换哪些商品？","最近有什么会员活动？","怎么查看我的会员积分？"]},{"pslot":"intent2:新人福利,action","query":["首次下单有优惠券吗？","新会员有什么优惠吗？"]},{"pslot":"right","query":["首次下单有{right}么","新会员有什么{right}么","怎么查看我的{right}"]},{"pslot":"action,intent2:线下活动,position","query":["线下有什么活动么","{position}有什么新的线下活动","{position}城市门店有化妆服务么"]},{"pslot":"intent2:抽奖活动,prize","query":["店里有抽奖活动吗？"]},{"pslot":"position,action","query":["{position}有{action}么"]},{"pslot":"specs,category","query":["热门{specs}{category}测评","{specs}{category}优惠活动","{specs}{category}会员优惠价"]},{"pslot":"brand,product","query":["{brand}{product}现在有什么活动","{brand}{product}是否有优惠券可用","{brand}{product}的会员价是多少","{brand}{product}的价格是多少","{brand}{product}适合哪种肤质使用","{brand}{product}的效果如何","{brand}{product}的评论和评价如何","{brand}{product}是否有退换货政策","{brand}{product}是否有推荐的搭配产品","{brand}{product}的成分有哪些？"]},{"pslot":"season,category","query":["{season}必入{category}排行榜","{season}必入{category}推荐"]},{"pslot":"time,theme","query":["{time}必备{theme}"]},{"pslot":"specs,brand,category","query":["{specs}{brand}的{category}有什么推荐","{specs}{brand}的{category}适合什么肤质","{specs}{brand}的{category}有哪些经典产品","{specs}{brand}的{category}有什么新品推荐"]},{"pslot":"season,brand,category","query":["{season}必入{brand}的{category}排行榜","{season}必入{brand}的{category}推荐","{season}必入{brand}的{category}有哪些经典产品","{season}必入{brand}的{category}有什么新品推荐"]},{"pslot":"position,action,brand","query":["{position}有什么{action}{brand}的活动","{position}有什么{action}{brand}的优惠"]}]
+[
+    {
+        "pslot": "base",
+        "query": [
+            "有哪些护肤品牌？",
+            "有没有适合敏感肌肤的产品？",
+            "有没有针对不同肤质的护肤产品？",
+            "有没有提供化妆品的试用装？",
+            "有没有提供护肤品的样品？",
+            "推荐一款适合敏感皮肤的洗面奶。",
+            "有没有提供护肤品的礼盒套装？",
+            "有没有提供专业的护肤咨询服务？",
+            "有没有提供护肤品的抗衰老系列？",
+            "有没有提供护肤品的美白系列？",
+            "有没有提供护肤品的保湿系列？"
+        ]
+    },
+    {
+        "pslot": "gender",
+        "query": [
+            "{gender}性护肤品推荐"
+        ]
+    },
+    {
+        "pslot": "product",
+        "query": [
+            "{product}现在有什么活动",
+            "{product}是否有优惠券可用",
+            "{product}的会员价是多少",
+            "{product}的价格是多少",
+            "{product}适合哪种肤质使用",
+            "{product}的效果如何",
+            "{product}的评论和评价如何",
+            "{product}是否有退换货政策",
+            "{product}是否有推荐的搭配产品",
+            "{product}的成分有哪些？",
+            "12345"
+        ]
+    },
+    {
+        "pslot": "category",
+        "query": [
+            "热门{category}测评",
+            "{category}优惠活动",
+            "{category}会员优惠价",
+            "{category}有什么干货知识",
+            "{category}使用指南",
+            "12345"
+        ]
+    },
+    {
+        "pslot": "brand",
+        "query": [
+            "{brand}活动优惠券",
+            "{brand}品牌最近有优惠么",
+            "{brand}产品测评"
+        ]
+    },
+    {
+        "pslot": "time",
+        "query": [
+            "{time}活动优惠",
+            "{time}会员福利",
+            "{time}期间有什么优惠吗",
+            "{time}有促销礼盒推荐么"
+        ]
+    },
+    {
+        "pslot": "symptom",
+        "query": [
+            "{symptom},有什么产品推荐改善吗？",
+            "针对{symptom}的产品有哪些？",
+            "解决{symptom}好物推荐"
+        ]
+    },
+    {
+        "pslot": "skin",
+        "query": [
+            "有没有适合{skin}的洁面产品？",
+            "有没有适合{skin}的护肤品？",
+            "请问有没有适合{skin}的面膜？",
+            "有没有适合{skin}的防晒产品？",
+            "我可以找到哪些适合{skin}的品牌？",
+            "有没有适合{skin}的粉底推荐？"
+        ]
+    },
+    {
+        "pslot": "action",
+        "query": [
+            "最近有什么{action}活动么",
+            "最近都有什么优惠活动",
+            "有没有什么优惠券可以领"
+        ]
+    },
+    {
+        "pslot": "intent2:会员活动,action",
+        "query": [
+            "会员积分可以兑换哪些商品？",
+            "最近有什么会员活动？",
+            "怎么查看我的会员积分？"
+        ]
+    },
+    {
+        "pslot": "intent2:新人福利,action",
+        "query": [
+            "首次下单有优惠券吗？",
+            "新会员有什么优惠吗？"
+        ]
+    },
+    {
+        "pslot": "right",
+        "query": [
+            "首次下单有{right}么",
+            "新会员有什么{right}么",
+            "怎么查看我的{right}"
+        ]
+    },
+    {
+        "pslot": "action,intent2:线下活动,position",
+        "query": [
+            "线下有什么活动么",
+            "{position}有什么新的线下活动",
+            "{position}城市门店有化妆服务么"
+        ]
+    },
+    {
+        "pslot": "intent2:抽奖活动,prize",
+        "query": [
+            "店里有抽奖活动吗？"
+        ]
+    },
+    {
+        "pslot": "position,action",
+        "query": [
+            "{position}有{action}么"
+        ]
+    },
+    {
+        "pslot": "specs,category",
+        "query": [
+            "热门{specs}{category}测评",
+            "{specs}{category}优惠活动",
+            "{specs}{category}会员优惠价"
+        ]
+    },
+    {
+        "pslot": "brand,product",
+        "query": [
+            "{brand}{product}现在有什么活动",
+            "{brand}{product}是否有优惠券可用",
+            "{brand}{product}的会员价是多少",
+            "{brand}{product}的价格是多少",
+            "{brand}{product}适合哪种肤质使用",
+            "{brand}{product}的效果如何",
+            "{brand}{product}的评论和评价如何",
+            "{brand}{product}是否有退换货政策",
+            "{brand}{product}是否有推荐的搭配产品",
+            "{brand}{product}的成分有哪些？"
+        ]
+    },
+    {
+        "pslot": "season,category",
+        "query": [
+            "{season}必入{category}排行榜",
+            "{season}必入{category}推荐"
+        ]
+    },
+    {
+        "pslot": "time,theme",
+        "query": [
+            "{time}必备{theme}"
+        ]
+    },
+    {
+        "pslot": "specs,brand,category",
+        "query": [
+            "{specs}{brand}的{category}有什么推荐",
+            "{specs}{brand}的{category}适合什么肤质",
+            "{specs}{brand}的{category}有哪些经典产品",
+            "{specs}{brand}的{category}有什么新品推荐"
+        ]
+    },
+    {
+        "pslot": "season,brand,category",
+        "query": [
+            "{season}必入{brand}的{category}排行榜",
+            "{season}必入{brand}的{category}推荐",
+            "{season}必入{brand}的{category}有哪些经典产品",
+            "{season}必入{brand}的{category}有什么新品推荐"
+        ]
+    },
+    {
+        "pslot": "position,action,brand",
+        "query": [
+            "{position}有什么{action}{brand}的活动",
+            "{position}有什么{action}{brand}的优惠"
+        ]
+    }
+]
